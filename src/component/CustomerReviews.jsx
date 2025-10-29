@@ -8,7 +8,7 @@ const reviews = [
     role: "Business Owner",
     review:
       "Ali Moavia did an amazing job on my website! The design was clean, fast, and exactly how I wanted it.",
-    img: "/public/girl.jpg",
+    img: "/girl.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const reviews = [
     role: "Startup Founder",
     review:
       "Professional and very responsive. Built our landing page with great SEO and performance.",
-    img: "/public/boyy.jpg",
+    img: "/boyy.jpg",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const reviews = [
     role: "Blogger",
     review:
       "The portfolio website he made for me looks stunning. Easy to manage and coded perfectly!",
-    img: "/public/man.jpg",
+    img: "/man.jpg",
   },
 ];
 
