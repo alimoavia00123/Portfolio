@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="bg-gradient-to-r from-[#0F172A] to-[#1E293B] text-white min-h-screen flex items-center justify-center px-10 md:px-20 relative overflow-hidden"
+      className="bg-linear-to-r from-[#0F172A] to-[#1E293B] text-white min-h-screen flex items-center justify-center px-10 md:px-20 relative overflow-hidden"
     >
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl">
         
@@ -34,7 +34,7 @@ const Home = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-[#38BDF8]/30 blur-3xl rounded-full scale-125"></div>
               <img
-                src="/pic2.jpg"
+                src="/a.jpg"
                 alt="Ali"
                 className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-full opacity-70 backdrop-blur-lg hover:opacity-100 hover:scale-105 transition-all duration-500"
               />

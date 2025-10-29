@@ -1,11 +1,11 @@
 import React from 'react';
-import codingPic from '/public/coding.jpg'; 
+import codingPic from '/public/code.jpg'; 
 
 const About = () => {
   return (
     <section
       id="about"
-      className="bg-gradient-to-r from-[#0F172A] to-[#1E293B] text-white  py-16 px-6 md:px-20"
+      className="bg-linear-to-r from-[#0F172A] to-[#1E293B] text-white  py-16 px-6 md:px-20"
     >
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         <div className="md:w-1/2 text-center md:text-left">

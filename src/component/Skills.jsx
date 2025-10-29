@@ -3,13 +3,17 @@ import {
   FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, 
   FaGitAlt, FaWordpress 
 } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiGo, SiTailwindcss } from "react-icons/si";
+import { 
+  SiMongodb, SiExpress, SiGo, SiTailwindcss, SiTypescript, 
+  SiElementor, SiFigma, SiVite 
+} from "react-icons/si";
 
 const Skills = () => {
   const skills = [
     { name: "HTML", icon: <FaHtml5 className="text-[#E34F26]" /> },
     { name: "CSS", icon: <FaCss3Alt className="text-[#1572B6]" /> },
     { name: "JavaScript", icon: <FaJsSquare className="text-[#F7DF1E]" /> },
+    { name: "TypeScript", icon: <SiTypescript className="text-[#3178C6]" /> },
     { name: "React.js", icon: <FaReact className="text-[#61DAFB]" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss className="text-[#38BDF8]" /> },
     { name: "Go", icon: <SiGo className="text-[#00ADD8]" /> },
@@ -18,12 +22,15 @@ const Skills = () => {
     { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" /> },
     { name: "Git", icon: <FaGitAlt className="text-[#F1502F]" /> },
     { name: "WordPress", icon: <FaWordpress className="text-[#21759B]" /> },
+    { name: "Elementor", icon: <SiElementor className="text-[#92003B]" /> },
+    { name: "Figma", icon: <SiFigma className="text-[#F24E1E]" /> },
+    { name: "Vite", icon: <SiVite className="text-[#646CFF]" /> },
   ];
 
   return (
     <section 
       id="skills" 
-      className="bg-gradient-to-r from-[#0F172A] to-[#1E293B] text-white py-20 px-6 md:px-20"
+      className="bg-linear-to-r from-[#0F172A] to-[#1E293B] flex justify-center text-white py-20 px-6 md:px-20"
     >
       <div className="max-w-6xl mx-auto text-center">
         
@@ -35,14 +42,13 @@ const Skills = () => {
           Technologies and tools I use to craft modern, responsive, and optimized web experiences.
         </p>
 
-        {/* ===== Equal-Size Skill Grid ===== */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10 place-items-center">
           {skills.map((skill, index) => (
             <div 
               key={index} 
               className="flex flex-col items-center justify-center w-32 h-32 bg-[#1E293B]/40 backdrop-blur-md 
                          rounded-xl p-5 hover:bg-[#1E293B]/70 hover:scale-110 
-                         transition-all duration-300 shadow-md shadow-[#000]/30"
+                         transition-all duration-300 shadow-md shadow-black/30"
             >
               <div className="text-5xl mb-2 drop-shadow-[0_0_8px_#38BDF8]/50">
                 {skill.icon}
